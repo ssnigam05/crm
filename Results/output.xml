@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on darwin)" generated="20230925 13:56:35.941" rpa="false" schemaversion="4">
+<suite id="s1" name="Crm" source="/Users/shyam/Documents/Documents – Shyam’s MacBook Pro/RobotFramework/crm/tests/crm.robot">
+<test id="s1-t1" name="Should be able to add new customer" line="9">
+<kw name="Log" library="BuiltIn">
+<arg>Starting the test case!</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230925 13:56:36.124" level="INFO">Starting the test case!</msg>
+<status status="PASS" starttime="20230925 13:56:36.124" endtime="20230925 13:56:36.124"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://automationplayground.com/crm/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230925 13:56:36.125" level="INFO">Opening browser 'chrome' to base url 'https://automationplayground.com/crm/'.</msg>
+<status status="PASS" starttime="20230925 13:56:36.124" endtime="20230925 13:56:39.579"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230925 13:56:42.582" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230925 13:56:39.580" endtime="20230925 13:56:42.582"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230925 13:56:42.583" endtime="20230925 13:56:42.734"/>
+</kw>
+<doc>This is some basic info about the test</doc>
+<tag>1006</tag>
+<tag>Contacts</tag>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20230925 13:56:36.123" endtime="20230925 13:56:42.736"/>
+</test>
+<doc>This is some basic info about the whole suite</doc>
+<status status="PASS" starttime="20230925 13:56:35.943" endtime="20230925 13:56:42.741"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">1006</stat>
+<stat pass="1" fail="0" skip="0">Contacts</stat>
+<stat pass="1" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Crm">Crm</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
