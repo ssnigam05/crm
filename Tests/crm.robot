@@ -2,7 +2,7 @@
 Documentation       This is some basic info about the whole suite
 Library             SeleniumLibrary
 
-# Execution command
+# Execution command to run the robot script
 # robot -d results tests/crm.robot
 
 *** Variables ***
