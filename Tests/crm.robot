@@ -5,11 +5,17 @@ Library             SeleniumLibrary
 # Execution command to run the robot script
 # robot -d results tests/crm.robot
 
+# Execution command to run a specific test case
+# robot -d results -N "Test case 2" -t "Test Case 2" tests/crm.robot
+
+# Execution command to run a test case with a specific tag
+# robot -d results -N "Test case 3" -i "CurrentTestCase" tests
+
 *** Variables ***
 
 
 *** Test Cases ***
-Should be able to add new customer
+Test case 1: Should be able to add new customer
     [Documentation]     This is some basic info about the test
     [Tags]              1006    Smoke   Contacts
 
@@ -53,5 +59,12 @@ Should be able to add new customer
 
     sleep               3s
     close browser
+
+Test Case 2
+    log             This is test case 2 log from suite Tests
+
+Test Case 3
+    [Tags]          CurrentTestCase
+    log             Executing a test case with a specific tag
 
 *** Keywords ***
