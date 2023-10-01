@@ -7,13 +7,9 @@ Test Setup    Initialize Selenium
 Test Teardown    End web test
 
 # Execution command to run the robot script
-# robot -d ResultsMoreReadable tests/crm_MoreReadable.robot
+# robot -d ResultPO Tests/crm_POExample.robot
 
-# Execution command to run a specific test case
-# robot -d results -N "Test case 2" -t "Test Case 2" tests/crm.robot
 
-# Execution command to run a test case with a specific tag
-# robot -d results -N "Test case 3" -i "CurrentTestCase" tests
 
 *** Variables ***
 
