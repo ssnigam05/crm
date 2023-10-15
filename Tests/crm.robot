@@ -8,7 +8,7 @@ Library             SeleniumLibrary
 # Execution command to run a specific test case
 # robot -d results -N "Test case 2" -t "Test Case 2" tests/crm.robot
 
-# Execution command to run a test case with a specific tag
+# Execution command to run a test case with a specific tag on pycharm
 # robot -d results -N "Test case 3" -i "CurrentTestCase" tests
 
 *** Variables ***
